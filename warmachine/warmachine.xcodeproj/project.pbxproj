@@ -14,6 +14,12 @@
 		83055CA3213A07970059A59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83055CA1213A07970059A59B /* LaunchScreen.storyboard */; };
 		83055CAE213A07980059A59B /* warmachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83055CAD213A07980059A59B /* warmachineTests.swift */; };
 		83055CB9213A07980059A59B /* warmachineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83055CB8213A07980059A59B /* warmachineUITests.swift */; };
+		E598EC80213E11C00010E7A8 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EC7F213E11C00010E7A8 /* Defines.swift */; };
+		E598EC81213E11C00010E7A8 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EC7F213E11C00010E7A8 /* Defines.swift */; };
+		E598EC82213E11C00010E7A8 /* Defines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EC7F213E11C00010E7A8 /* Defines.swift */; };
+		E598EC84213E14AF0010E7A8 /* Roller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EC83213E14AF0010E7A8 /* Roller.swift */; };
+		E598EC85213E14AF0010E7A8 /* Roller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EC83213E14AF0010E7A8 /* Roller.swift */; };
+		E598EC86213E14AF0010E7A8 /* Roller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E598EC83213E14AF0010E7A8 /* Roller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 		83055CB4213A07980059A59B /* warmachineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = warmachineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83055CB8213A07980059A59B /* warmachineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warmachineUITests.swift; sourceTree = "<group>"; };
 		83055CBA213A07980059A59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E598EC7F213E11C00010E7A8 /* Defines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defines.swift; sourceTree = "<group>"; };
+		E598EC83213E14AF0010E7A8 /* Roller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,8 @@
 				83055C9F213A07970059A59B /* Assets.xcassets */,
 				83055CA1213A07970059A59B /* LaunchScreen.storyboard */,
 				83055CA4213A07970059A59B /* Info.plist */,
+				E598EC7F213E11C00010E7A8 /* Defines.swift */,
+				E598EC83213E14AF0010E7A8 /* Roller.swift */,
 			);
 			path = warmachine;
 			sourceTree = "<group>";
@@ -258,6 +268,8 @@
 			files = (
 				83055C9B213A07880059A59B /* ViewController.swift in Sources */,
 				83055C99213A07880059A59B /* AppDelegate.swift in Sources */,
+				E598EC80213E11C00010E7A8 /* Defines.swift in Sources */,
+				E598EC84213E14AF0010E7A8 /* Roller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E598EC81213E11C00010E7A8 /* Defines.swift in Sources */,
+				E598EC85213E14AF0010E7A8 /* Roller.swift in Sources */,
 				83055CAE213A07980059A59B /* warmachineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E598EC82213E11C00010E7A8 /* Defines.swift in Sources */,
+				E598EC86213E14AF0010E7A8 /* Roller.swift in Sources */,
 				83055CB9213A07980059A59B /* warmachineUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
